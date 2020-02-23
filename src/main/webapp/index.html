@@ -30,7 +30,6 @@
                 refreshHead += '<th>' + json.rowQueue[0].seatList[colunm].column + '</th>';
             }
 
-
             for (row in json.rowQueue) {
                 refreshBody +="<tr><td>" + json.rowQueue[row].seatList[0].row + "</td>";
                 for(place in json.rowQueue[row].seatList) {
@@ -75,7 +74,12 @@
 </script>
 
 <script>
-    $(refrTable())
+    $(
+        function() {
+            refrTable();
+            setInterval(refrTable, 5000)
+        }
+    )
 </script>
 
 <div class="container">
