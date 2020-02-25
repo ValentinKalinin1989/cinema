@@ -3,7 +3,7 @@
 <h4> Простой веб-сайт для покупки билетов в кинотеатр </h4>
 
 <h5> 1. Начальная страница сайта index.html - зал с рядами. </h5>
-![Форма для выбора мест в кинозале](https://raw.githubusercontent.com/ValentinKalinin1989/cinema/master/images/hall.png)
+![Форма для выбора мест в кинозале](https://user-images.githubusercontent.com/46251025/75287953-64baf200-582c-11ea-9289-4118393ef586.png)
 <h5> 2. После выбора места происходит переход на страницу payment.html - форма для покупки билета. </h5>
 ![Форма для заполнения данных покупателя](https://raw.githubusercontent.com/ValentinKalinin1989/cinema/master/images/payform.png)
 <h5> 3. Данные на index.html загружаются из базы данных с применением ajax через определенный интервал. </h5>
